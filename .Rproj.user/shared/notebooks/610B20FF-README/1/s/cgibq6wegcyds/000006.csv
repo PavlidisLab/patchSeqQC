@@ -1,2 +1,0 @@
-"0","data(cadwell_expr)"
-"0","knitr::kable(head(cadwell_expr[, 1:7], 3))"

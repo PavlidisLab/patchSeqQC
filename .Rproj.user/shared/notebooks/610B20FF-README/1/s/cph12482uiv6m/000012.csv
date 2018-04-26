@@ -1,2 +1,0 @@
-"0","aibsExprDataDf = cbind(aibsExprMeta, aibsExprData  %>% t()) # combines metadata and expression matrices "
-"0","rownames(aibsExprDataDf) = aibsExprMeta$sample_id"
