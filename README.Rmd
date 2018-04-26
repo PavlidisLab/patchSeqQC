@@ -26,10 +26,26 @@ This package includes functions for assessing the quality of single-cell transcr
 
 These functions were initially tailored for data collected using the patch-seq methodology, but are applicable to other single-cell RNAseq datasets. This package is meant as a tutorial to illustrate the approach outlined in our paper, but please contact us with feature requests and bug reports.
 
+- [patchSeqQC](#patchseqqc)
+- [Installation](#installation)
+- [Usage](#usage)
+  * [Example patch-seq data](#example-patch-seq-data)
+  * [Visualizing cell type-specific marker expression](#visualizing-cell-type-specific-marker-expression)
+    + [Cell type specific marker genes](#cell-type-specific-marker-genes)
+    + [Associating single-cells to standardized cell type names](#associating-single-cells-to-standardized-cell-type-names)
+    + [Visualizing expression of multiple cell type markers](#visualizing-expression-of-multiple-cell-type-markers)
+  * [Comparing marker expression in patch-seq data to dissociated cell reference data](#comparing-marker-expression-in-patch-seq-data-to-dissociated-cell-reference-data)
+    + [Loading cell dissociation-based single cell reference dataset](#loading-cell-dissociation-based-single-cell-reference-dataset)
+    + [Comparing expression of individual marker genes in patch-seq samples to dissociated cells](#comparing-expression-of-individual-marker-genes-in-patch-seq-samples-to-dissociated-cells)
+    + [Summarizing cell type specific marker expression in patch-seq data](#summarizing-cell-type-specific-marker-expression-in-patch-seq-data)
+    + [Summarizing cell type specific marker expression in reference data](#summarizing-cell-type-specific-marker-expression-in-reference-data)
+  * [Computing single-cell quality metrics based on comparison to reference data](#computing-single-cell-quality-metrics-based-on-comparison-to-reference-data)
+  * [Caveats in approach](#caveats-in-approach)
+
 Installation
 ===========
 Use devtools to install. Additional github packages needs to be installed for it work.
-```{r install}
+```
 devtools::install_github('PavlidisLab/patchSeqQC')
 ```
 
