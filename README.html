@@ -129,6 +129,27 @@ $(document).ready(function () {
 <h1>patchSeqQC</h1>
 <p>This package includes functions for assessing the quality of single-cell transcriptomic data using cell type-specific marker gene expression, based on our paper, <a href="https://www.biorxiv.org/content/early/2018/04/09/298133">Data-driven approaches for improving the interpretability of patch-seq data</a>. All of the code and data for reproducing the figures from the manuscipt is available at the <a href="https://github.com/PavlidisLab/patchSeqQCManuscript">patchSeqQCManuscript repository</a>.</p>
 <p>These functions were initially tailored for data collected using the patch-seq methodology, but are applicable to other single-cell RNAseq datasets. This package is meant as a tutorial to illustrate the approach outlined in our paper, but please contact us with feature requests and bug reports.</p>
+<ul>
+<li><a href="#patchseqqc">patchSeqQC</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#example-patch-seq-data">Example patch-seq data</a></li>
+<li><a href="#visualizing-cell-type-specific-marker-expression">Visualizing cell type-specific marker expression</a>
+<ul>
+<li><a href="#cell-type-specific-marker-genes">Cell type specific marker genes</a></li>
+<li><a href="#associating-single-cells-to-standardized-cell-type-names">Associating single-cells to standardized cell type names</a></li>
+<li><a href="#visualizing-expression-of-multiple-cell-type-markers">Visualizing expression of multiple cell type markers</a></li>
+</ul></li>
+<li><a href="#comparing-marker-expression-in-patch-seq-data-to-dissociated-cell-reference-data">Comparing marker expression in patch-seq data to dissociated cell reference data</a>
+<ul>
+<li><a href="#loading-cell-dissociation-based-single-cell-reference-dataset">Loading cell dissociation-based single cell reference dataset</a></li>
+<li><a href="#comparing-expression-of-individual-marker-genes-in-patch-seq-samples-to-dissociated-cells">Comparing expression of individual marker genes in patch-seq samples to dissociated cells</a></li>
+<li><a href="#summarizing-cell-type-specific-marker-expression-in-patch-seq-data">Summarizing cell type specific marker expression in patch-seq data</a></li>
+<li><a href="#summarizing-cell-type-specific-marker-expression-in-reference-data">Summarizing cell type specific marker expression in reference data</a></li>
+</ul></li>
+<li><a href="#computing-single-cell-quality-metrics-based-on-comparison-to-reference-data">Computing single-cell quality metrics based on comparison to reference data</a></li>
+<li><a href="#caveats-in-approach">Caveats in approach</a></li>
+</ul>
 </div>
 <div id="installation" class="section level1">
 <h1>Installation</h1>
