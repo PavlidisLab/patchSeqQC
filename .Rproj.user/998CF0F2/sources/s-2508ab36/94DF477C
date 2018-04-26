@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524523915294.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "94DF477C",
+    "lastKnownWriteTime" : 1524515840,
+    "last_content_update" : 1524515840,
+    "path" : "~/patchSeqQC/analysis/LoadingScripts/LoadDissociatedCellData.R",
+    "project_path" : "analysis/LoadingScripts/LoadDissociatedCellData.R",
+    "properties" : {
+        "cursorPosition" : "5,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

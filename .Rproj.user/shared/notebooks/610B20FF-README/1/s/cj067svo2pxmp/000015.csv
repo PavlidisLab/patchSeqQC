@@ -1,0 +1,8 @@
+"0","# plot expression of cadwell pyramidal cells"
+"0","cadwell_pyr_samples = cadwell_meta %>% dplyr::filter(major_type == 'Exc') %>% dplyr::pull(sample_id) "
+"0","cadwell_pyr_df = cadwell_expr[, cadwell_pyr_samples]"
+"0","cadwell_pyr_df = cbind(cadwell_meta[cadwell_meta$sample_id %in% cadwell_pyr_samples, ], cadwell_pyr_df  %>% t())"
+"0","rownames(cadwell_pyr_df) = cadwell_pyr_samples"
+"0","plot_cell_types = c('Pyramidal_on', 'Inhibitory', 'Microglia')"
+"0","plot_marker_list = c(markers[plot_cell_types])"
+"0","cadwell_pyramidal_heatmap = plotMarkerHeatmap(plot_marker_list, cadwell_pyr_df, show_legend = T, show_cell_labels = T )"

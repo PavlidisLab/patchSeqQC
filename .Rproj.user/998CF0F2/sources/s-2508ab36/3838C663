@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524594630498.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3838C663",
+    "lastKnownWriteTime" : 1524515842,
+    "last_content_update" : 1524515842,
+    "path" : "~/patchSeqQC/analysis/writeCellTypeMappings.R",
+    "project_path" : "analysis/writeCellTypeMappings.R",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 14,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

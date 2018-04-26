@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524610474413.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9EB35184",
+    "lastKnownWriteTime" : 1524680491,
+    "last_content_update" : 1524680491341,
+    "path" : "~/patchSeqQC/analysis/LoadingScripts/LoadTasic2016.R",
+    "project_path" : "analysis/LoadingScripts/LoadTasic2016.R",
+    "properties" : {
+        "cursorPosition" : "81,28",
+        "scrollLine" : "50"
+    },
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

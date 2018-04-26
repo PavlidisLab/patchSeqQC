@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524682973324.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BC2FDAB4",
+    "lastKnownWriteTime" : 8027794381647904774,
+    "last_content_update" : 1524682973324,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "context" : "package:base:::as.data.frame"
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_code_browser"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524594649327.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7F652EFC",
+    "lastKnownWriteTime" : 1524515842,
+    "last_content_update" : 1524515842,
+    "path" : "~/patchSeqQC/analysis/mapCellTypes.R",
+    "project_path" : "analysis/mapCellTypes.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

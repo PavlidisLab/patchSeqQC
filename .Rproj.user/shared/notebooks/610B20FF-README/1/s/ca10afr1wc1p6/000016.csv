@@ -1,0 +1,8 @@
+"0","cell_types_to_plot = c('Ndnf_on', 'Astrocyte', 'Endothelial', 'Microglia', 'Oligodendrocyte', 'OPC', 'Pyramidal')"
+"0","plotPatchSeqVsDissocMarkerExpr(patch_seq_df = cadwell_engc_df, # patch-seq data frame that combines gene expr with metadata, each row is a single-cell"
+"0","                                dissoc_cell_df = aibsExprDataDf, # dissociated cell data frame that combines gene expr with metadata, each row is a single-cell"
+"0","                                contam_type = 'Ndnf', # cell type to plot"
+"0","                                plot_cell_sample_ids = c('ERR1156978', 'ERR1156984'), # sample_ids to show"
+"0","                                plot_marker_types = cell_types_to_plot, # cell types to show markers for"
+"0","                                markers = markers # named list of lists for marker genes"
+"0","                               ) "

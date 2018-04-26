@@ -1,0 +1,8 @@
+"","norm_broad_type","tasic_primary_types","zeisel_primary_types"
+"1","Astrocyte","Astro Gja1","Astro2, Astro1"
+"2","Endothelial","Endo Myl9, Endo Tbc1d4","Vsmc"
+"3","Inhibitory","Vip Mybpc1, Vip Parm1, Vip Chat, Pvalb Gpx3, Ndnf Cxcl14, Vip Gpc3, Vip Sncg, Ndnf Car4, Sst Myh8, Sst Chodl, Sst Th, Sst Tacstd2, Sncg, Sst Cdk6, Pvalb Wt1, Pvalb Tacr3, Sst Cbln4, Igtp, Pvalb Cpne5, Pvalb Rspo2, Smad3, Pvalb Tpbg, Pvalb Obox3","Int10, Int6, Int9, Int2, Int4, Int1, Int3, Int13, Int16, Int14, Int11, Int5, Int7, Int8, Int12, Int15"
+"4","Microglia","Micro Ctss","Mgl1, Mgl2"
+"5","Oligodendrocyte","Oligo 96_Rik, Oligo Opalin","Oligo1, Oligo3, Oligo4, Oligo2, Oligo6, Oligo5"
+"6","OPC","OPC Pdgfra",NA
+"7","Pyramidal","L4 Ctxn3, L2/3 Ptgs2, L2 Ngb, L5a Batf3, L4 Scnn1a, L5a Pde1c, L6a Mgp, L6b Serpinb11, L6b Rgs12, L4 Arf5, L5a Hsd11b1, L5a Tcerg1l, L6a Sla, L6a Syt17, L6a Car12, L5b Tph2, L5 Ucma, L5 Chrna6, L5b Cdh13","S1PyrL4, ClauPyr, S1PyrL5, S1PyrL23, S1PyrDL, S1PyrL5a, SubPyr, CA1Pyr1, S1PyrL6b, S1PyrL6, CA1Pyr2, CA2Pyr2"

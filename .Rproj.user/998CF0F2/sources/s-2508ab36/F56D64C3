@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524594455858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F56D64C3",
+    "lastKnownWriteTime" : 1524775604,
+    "last_content_update" : 1524775604753,
+    "path" : "~/patchSeqQC/R/calculatePatchSeqQCMetrics.R",
+    "project_path" : "R/calculatePatchSeqQCMetrics.R",
+    "properties" : {
+        "cursorPosition" : "2,47",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 13,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

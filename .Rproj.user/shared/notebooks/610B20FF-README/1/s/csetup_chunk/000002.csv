@@ -1,0 +1,21 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(knitr)"
+"0","library(ggplot2)"
+"0","library(readr)"
+"0","library(stringr)"
+"0","library(pheatmap)"
+"0","library(RColorBrewer)"
+"0","library(cowplot)"
+"0","library(magrittr)"
+"2","
+Attaching package: ‘magrittr’
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    extract
+
+"
+"0","devtools::load_all()"
+"2","Loading patchSeqQC
+"

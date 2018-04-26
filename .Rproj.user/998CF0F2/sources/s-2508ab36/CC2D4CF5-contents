@@ -1,0 +1,51 @@
+library(ogbox)
+library(homologene)
+
+source('data-raw/markers/NeuroExpressoMarkers.R')
+
+### make example file to load in and look at for marker expression
+
+# load expression matrix 
+
+bardy_expr_mat = read.csv('~/ephys_analysis/data/bardy_patchseq/expr_df_threshold_56cells_17771genes.csv', row.names = 1)
+bardy_meta = read.csv('~/ephys_analysis/data/bardy_patchseq/metadata_56cells.csv')
+
+bardy_gene_names = rownames(bardy_expr_mat)
+
+bardy_expr = bardy_expr_mat %>% t() %>% as.data.frame 
+
+bardy_expr = bardy_expr + 1
+
+colnames(bardy_expr) = colnames(bardy_expr) %>% make.names(., unique= T)
+
+sorted_cell_inds = bardy_meta %>% arrange(FTC_simple) %>% select(cell.number) %>% unlist %>% as.character
+
+bardy_expr = bardy_expr[sorted_cell_inds, ]
+
+bardy_expr %>% apply(1, function(row) sum(row > 1))
+
+use_markers = c('Pyramidal', 'Astrocyte', 'Microglia', 'Oligodendrocyte')
+humanMarkers = lapply(use_markers, function(cell_name){
+  markers = neuroExpressoMarkers$singleCell[[cell_name]] %>% mouse2human() %>% select(humanGene) %>% unlist %>% as.character
+  markers = intersect(markers, bardy_gene_names)
+  return(markers)
+})
+names(humanMarkers) = use_markers
+
+source('R/calcCellContam.R')
+source('R/plotMarkerHeatmaps.R')
+
+
+cadwell_expr = patch_seq_datasets$cadwell$joined_df[patch_seq_datasets$cadwell$joined_df$major_type == 'eNGC', ] 
+rownames(cadwell_expr)  = patch_seq_datasets$cadwell$joined_df[patch_seq_datasets$cadwell$joined_df$major_type == 'eNGC', 'cell_id']
+
+marker_sum = patch_seq_datasets$cadwell$joined_df[patch_seq_datasets$cadwell$joined_df$major_type == 'eNGC', ]$dissoc_corr
+# on_marker_sum = sumExpression(cadwell_expr, ndnf_markers)
+sorted_cell_ids = order(-marker_sum)
+cadwell_expr =cadwell_expr[sorted_cell_ids, ] 
+
+plot_cell_types_bardy = c('Pyramidal', 'Astrocyte', 'Microglia', 'Oligodendrocyte')
+
+plot_marker_list = c(humanMarkers[plot_cell_types_bardy[1:4]])
+
+plotMarkerHeatmap(plot_marker_list, bardy_expr, show_legend = T, show_cell_labels = T)

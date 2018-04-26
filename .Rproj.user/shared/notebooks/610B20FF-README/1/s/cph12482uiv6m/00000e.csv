@@ -1,0 +1,2 @@
+"0","data(aibsExprData) # need to show that we have a field major types and contam_Type in here as well"
+"0","knitr::kable(head(aibsExprData[1:5, 1:5]))"

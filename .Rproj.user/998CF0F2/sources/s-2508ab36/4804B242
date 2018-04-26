@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524688112521.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4804B242",
+    "lastKnownWriteTime" : 1524688648,
+    "last_content_update" : 1524688648204,
+    "path" : "~/patchSeqQC/R/plotPatchSeqDissocCellMarkerExpr.R",
+    "project_path" : "R/plotPatchSeqDissocCellMarkerExpr.R",
+    "properties" : {
+        "cursorPosition" : "6,61",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
