@@ -57,16 +57,16 @@ plotMarkerHeatmap = function(markerlist, expr_matrix, show_legend = T, show_cell
 }
 
 # sets colors for cell types
-#ann_colors = list(Markers = c(Ndnf_on = "indianred1", Ndnf = "indianred1", Pyramidal = "turquoise", Pyramidal_on = "turquoise",
-#                              Microglia = "gray50", Sncg_on = "purple", Astrocyte = "green4", Pvalb = "red",
-#                              Inhibitory = "red",
-#                              Endothelial = "brown",
-#                              Oligodendrocyte = "sandybrown",
-#                              OPC = 'darkorange4'),
-#                  CellTypes = c(Ndnf = "indianred1", Pyramidal = "turquoise", Pvalb = "red", Sncg = "purple"))
+ann_colors = list(Markers = c(Ndnf_on = "indianred1", Ndnf = "indianred1", Pyramidal = "turquoise", Pyramidal_on = "turquoise",
+                              Microglia = "gray50", Sncg_on = "purple", Astrocyte = "green4", Pvalb = "red",
+                              Inhibitory = "red",
+                              Endothelial = "brown",
+                              Oligodendrocyte = "sandybrown",
+                              OPC = 'darkorange4'),
+                  CellTypes = c(Ndnf = "indianred1", Pyramidal = "turquoise", Pvalb = "red", Sncg = "purple"))
 
 
-#contam_plot_types = factor(c('Astrocyte', 'Endothelial', 'Microglia', 'Oligodendrocyte', 'Pyramidal'), levels = c('Astrocyte', 'Endothelial', 'Microglia', 'Oligodendrocyte', 'OPC', 'Pyramidal'))
+contam_plot_types = factor(c('Astrocyte', 'Endothelial', 'Microglia', 'Oligodendrocyte', 'Pyramidal'), levels = c('Astrocyte', 'Endothelial', 'Microglia', 'Oligodendrocyte', 'OPC', 'Pyramidal'))
 
 getContamMatrixFromPatchSeq = function(patch_seq_qc_df, cell_type_name, contam_show_types = contam_plot_types){
 
