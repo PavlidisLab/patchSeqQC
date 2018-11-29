@@ -11,7 +11,7 @@ output:
 
 patchSeqQC
 ==========
-This package includes functions for assessing the quality of single-cell transcriptomic data using cell type-specific marker gene expression, based on our paper, [Data-driven approaches for improving the interpretability of patch-seq data](https://www.biorxiv.org/content/early/2018/04/09/298133). All of the code and data for reproducing the figures from the manuscipt is available at the [patchSeqQCManuscript repository](https://github.com/PavlidisLab/patchSeqQCManuscript).
+This package includes functions for assessing the quality of single-cell transcriptomic data using cell type-specific marker gene expression, based on our paper, [Assessing Transcriptome Quality in Patch-Seq Datasets](https://www.frontiersin.org/articles/10.3389/fnmol.2018.00363/full). All of the code and data for reproducing the figures from the manuscipt is available at the [patchSeqQCManuscript repository](https://github.com/PavlidisLab/patchSeqQCManuscript).
 
 These functions were initially tailored for data collected using the patch-seq methodology, but are applicable to other single-cell RNAseq datasets. This package is meant as a tutorial to illustrate the approach outlined in our paper, but please contact us with feature requests and bug reports.
 
